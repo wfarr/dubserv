@@ -12,3 +12,4 @@ mod 'openstack', :git => { :repo => 'git://github.com/puppetlabs/puppetlabs-open
 mod 'lvm',       :git => { :repo => 'git://github.com/puppetlabs/puppetlabs-lvm', :ref => '8a7b20e3' }
 
 # github release/tag
+mod 'boxen', '~> 0.1.0', :github => 'boxen/puppet-boxen'
